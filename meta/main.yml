@@ -1,7 +1,7 @@
 galaxy_info:
   author: Michel Blanc
-  description: simple ppa-backed nodejs role
-  company: ERASME/Grand-Lyon Métropole
+  description: Simple odejs role
+  company: devopsworks
   license: MIT
   min_ansible_version: 1.8
 

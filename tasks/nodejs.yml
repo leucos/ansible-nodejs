@@ -1,0 +1,14 @@
+- name: Adds repos key
+  apt_key:
+    url: https://deb.nodesource.com/gpgkey/nodesource.gpg.key
+
+- name: Adds node repos
+  apt_repository:
+    repo: "deb https://deb.nodesource.com/node_7.x {{ ansible_distribution_release }} main"
+    update_cache: yes
+
+- name: Installs nodejs
+  apt:
+    pkg: nodejs
+    state: present
+
