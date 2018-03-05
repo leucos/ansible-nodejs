@@ -17,7 +17,7 @@ None
 Role Variables
 --------------
 
-None
+* `node_major_version`: major nodeJS version (7,8,9), default: 7
 
 Tags
 ----
